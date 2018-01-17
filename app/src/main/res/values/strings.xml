@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Note IT</string>
+    <string name="title_activity_notes">Notes</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="signIn">SignIn</string>
+    <string name="signUp">SignUp</string>
+    <string name="title">Title</string>
+    <string name="notes">Notes</string>
+</resources>

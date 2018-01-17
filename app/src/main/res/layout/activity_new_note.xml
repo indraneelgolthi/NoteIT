@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    tools:context="thatbiriyaniguy.NoteIt.NewNote">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/new_note_title"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="@string/title"
+            android:padding="10dp"
+            android:textColor="@color/White"
+            android:textColorHint="@color/White" />
+
+        <View
+            android:layout_width="370dp"
+            android:layout_height="1dp"
+            android:alpha=".5"
+            android:layout_gravity="center"
+            android:background="@color/White"/>
+
+        <EditText
+            android:id="@+id/new_note_content"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@android:color/transparent"
+            android:ems="10"
+            android:hint="@string/notes"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textColor="@color/White"
+            android:textColorHint="@color/White"
+            android:layout_weight="1"
+            android:gravity="top"/>
+
+            <Button
+                android:id="@+id/new_note_btn"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.8"
+                android:background="@drawable/create_btn"
+                android:text="Save"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+
